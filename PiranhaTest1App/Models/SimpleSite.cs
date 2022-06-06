@@ -3,7 +3,7 @@ using Piranha.Extend;
 using Piranha.Extend.Fields;
 using Piranha.Models;
 
-namespace PiranhaTest1App.PiranhaTypes
+namespace PiranhaTest1App.Models
 {
    [SiteType(Title = "Simple Site")]
    public class SimpleSite : SiteContent<SimpleSite>

@@ -1,3 +1,7 @@
-﻿@using PiranhaTest1App
+﻿@using Piranha.AspNetCore.Models
+@using PiranhaTest1App.Models
 @namespace PiranhaTest1App.Pages
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@inject Piranha.AspNetCore.Services.IApplicationService WebApp
+@inject Microsoft.AspNetCore.Authorization.IAuthorizationService Auth
+
